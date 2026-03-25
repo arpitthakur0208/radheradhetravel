@@ -1,9 +1,8 @@
 "use client";
 
+import { isMobileDevice, openWhatsAppWithMessage } from "@/lib/whatsapp";
 import { motion } from "framer-motion";
 import { useState } from "react";
-
-const WHATSAPP_PHONE = "919320637506";
 
 function WhatsAppIcon({ className }: { className?: string }) {
   return (
@@ -36,14 +35,12 @@ export function ContactForm() {
     }
 
     const body = `Name: ${name}\nPhone: ${phone}\nMessage: ${message}`;
-    const encoded = encodeURIComponent(body);
-    const url = `https://wa.me/${WHATSAPP_PHONE}?text=${encoded}`;
 
     setIsSending(true);
-    window.setTimeout(() => {
-      window.open(url, "_blank");
+    openWhatsAppWithMessage(body);
+    if (!isMobileDevice()) {
       setIsSending(false);
-    }, 200);
+    }
   }
 
   return (
