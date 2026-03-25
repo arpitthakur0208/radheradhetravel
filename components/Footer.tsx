@@ -35,9 +35,11 @@ const social = [
 
 export function Footer() {
   return (
-    <footer className="border-t border-white/10 bg-slate-950/40 py-12 text-slate-200 backdrop-blur-xl dark:bg-slate-950/80">
+    <footer className="border-t border-slate-200/90 bg-slate-100/95 py-12 text-slate-700 backdrop-blur-xl dark:border-white/10 dark:bg-slate-950/80 dark:text-slate-200">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-4 sm:flex-row sm:px-6 lg:px-8">
-        <p className="text-center text-sm text-slate-400">Radhe Radhe Travels © 2026</p>
+        <p className="text-center text-sm text-slate-600 dark:text-slate-400">
+          Radhe Radhe Travels © 2026
+        </p>
         <div className="flex items-center gap-4">
           {social.map((s) => (
             <Link
@@ -45,7 +47,7 @@ export function Footer() {
               href={s.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-slate-400 transition hover:text-cyan-400"
+              className="text-slate-500 transition hover:text-cyan-600 dark:text-slate-400 dark:hover:text-cyan-400"
               aria-label={s.name}
             >
               <s.icon className="h-6 w-6" />
