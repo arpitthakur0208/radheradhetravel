@@ -34,3 +34,8 @@ body {
 .gallery-swiper .swiper-pagination-bullet-active {
   @apply bg-cyan-400;
 }
+
+/* Help Swiper receive horizontal swipes on top of native video controls */
+.gallery-swiper--touch .gallery-video {
+  touch-action: pan-x pan-y pinch-zoom;
+}

@@ -69,7 +69,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="Moments"
             title="Gallery"
-            subtitle="Snow, roads, and the vehicles that take you there."
+            subtitle="Photos, video, and the vehicles that take you there."
           />
           <div className="mt-10">
             <GallerySlider />

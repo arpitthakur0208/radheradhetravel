@@ -4,18 +4,17 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 
-const HERO_IMAGE =
-  "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1920&q=85";
+const HERO_IMAGE = "/images/hero-banner.png";
 
 export function Hero() {
   return (
     <section id="home" className="relative min-h-[100svh] overflow-hidden">
       <Image
         src={HERO_IMAGE}
-        alt="Mountain road with vehicle in the Himalayas"
+        alt="Radhe Radhe Travels group with SUVs in a high-altitude mountain landscape"
         fill
         priority
-        className="object-cover"
+        className="object-cover object-center"
         sizes="100vw"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-slate-900/70 via-slate-900/40 to-slate-950/90" />
