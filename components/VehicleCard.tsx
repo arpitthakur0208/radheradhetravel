@@ -27,9 +27,6 @@ export function VehicleCard({ vehicle, index }: Props) {
         <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-80" />
         <div className="absolute bottom-3 left-3 right-3 flex items-end justify-between">
           <h3 className="font-display text-xl font-semibold text-white">{vehicle.name}</h3>
-          <span className="rounded-full bg-white/20 px-3 py-1 text-sm font-semibold text-white backdrop-blur-md">
-            ₹{vehicle.pricePerDay.toLocaleString("en-IN")}/day
-          </span>
         </div>
       </div>
       <div className="p-5">
