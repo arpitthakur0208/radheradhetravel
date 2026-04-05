@@ -95,8 +95,8 @@ export default function HomePage() {
                 <ul className="mt-4 space-y-3 text-sm text-foreground/90">
                   <li>
                     <span className="font-medium text-foreground">Phone:</span>{" "}
-                    <a href="tel:+91XXXXXXXXXX" className="text-cyan-600 hover:underline dark:text-cyan-400">
-                      +91 XXXXXXXX
+                    <a href="tel:+919320637506" className="text-cyan-600 hover:underline dark:text-cyan-400">
+                      +91 9320637506
                     </a>
                   </li>
                   <li>
