@@ -22,6 +22,7 @@ export function VehicleCard({ vehicle, index }: Props) {
           alt={vehicle.name}
           fill
           className="object-cover transition duration-500 group-hover:scale-105"
+          style={vehicle.imagePosition ? { objectPosition: vehicle.imagePosition } : undefined}
           sizes="(max-width: 768px) 100vw, 50vw"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-80" />

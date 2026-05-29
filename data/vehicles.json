@@ -5,7 +5,8 @@
     "pricePerDay": 4500,
     "currency": "INR",
     "description": "Iconic 4x4 for high passes and off-road trails. Open-top adventure with modern comfort.",
-    "image": "https://images.unsplash.com/photo-1619405399517-d7fce0f13302?w=800&q=80"
+    "image": "/images/vehicles/thar.jpeg",
+    "imagePosition": "right center"
   },
   {
     "id": "scorpio",
@@ -13,7 +14,8 @@
     "pricePerDay": 3800,
     "currency": "INR",
     "description": "Spacious SUV with strong road presence—ideal for family trips across Himachal.",
-    "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80"
+    "image": "/images/vehicles/scorpio.png",
+    "imagePosition": "left center"
   },
   {
     "id": "innova",
@@ -21,7 +23,8 @@
     "pricePerDay": 4200,
     "currency": "INR",
     "description": "Premium MPV comfort for long drives to Leh, Manali, and beyond.",
-    "image": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=800&q=80"
+    "image": "/images/vehicles/innova.png",
+    "imagePosition": "center 35%"
   },
   {
     "id": "fortuner",
@@ -29,6 +32,6 @@
     "pricePerDay": 7500,
     "currency": "INR",
     "description": "Full-size luxury SUV for demanding terrain and executive travel.",
-    "image": "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=800&q=80"
+    "image": "/images/vehicles/fortuner.jpeg"
   }
 ]

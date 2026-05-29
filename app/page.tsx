@@ -3,6 +3,7 @@ import { DestinationCard } from "@/components/DestinationCard";
 import { GallerySlider } from "@/components/GallerySlider";
 import { Hero } from "@/components/Hero";
 import { SectionHeading } from "@/components/SectionHeading";
+import { Testimonials } from "@/components/Testimonials";
 import { VehicleCard } from "@/components/VehicleCard";
 import destinationsData from "@/data/destinations.json";
 import vehiclesData from "@/data/vehicles.json";
@@ -76,6 +77,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <Testimonials />
 
       <section
         id="contact"

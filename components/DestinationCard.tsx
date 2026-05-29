@@ -21,6 +21,7 @@ export function DestinationCard({ place, index }: Props) {
           alt={place.name}
           fill
           className="object-cover"
+          style={place.imagePosition ? { objectPosition: place.imagePosition } : undefined}
           sizes="(max-width: 768px) 100vw, 33vw"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 to-transparent" />

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Rahul Sharma",
+    "location": "Leh Ladakh Adventure",
+    "vehicle": "Mahindra Thar",
+    "rating": 5,
+    "review": "Amazing experience with Radhe Radhe Travels. The Thar was perfect for Leh roads and the trip was unforgettable.",
+    "image": "/images/reviews/review1.jpg"
+  },
+  {
+    "name": "Priya Verma",
+    "location": "Spiti Valley Trip",
+    "vehicle": "Toyota Innova",
+    "rating": 5,
+    "review": "Very professional service and comfortable journey. Highly recommended for family trips in Himachal.",
+    "image": "/images/reviews/review2.jpg"
+  },
+  {
+    "name": "Aman Thakur",
+    "location": "Manali & Kasol Tour",
+    "vehicle": "Mahindra Scorpio",
+    "rating": 5,
+    "review": "The driver was experienced and the SUV was well maintained. One of the best mountain travel experiences.",
+    "image": "/images/reviews/review3.jpg"
+  }
+]

@@ -39,3 +39,11 @@ body {
 .gallery-swiper--touch .gallery-video {
   touch-action: pan-x pan-y pinch-zoom;
 }
+
+.testimonials-swiper .swiper-pagination-bullet {
+  @apply bg-slate-400/80 opacity-100 dark:bg-slate-500;
+}
+
+.testimonials-swiper .swiper-pagination-bullet-active {
+  @apply bg-cyan-500 dark:bg-cyan-400;
+}

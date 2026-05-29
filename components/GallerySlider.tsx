@@ -49,8 +49,13 @@ const slides: GallerySlide[] = [
   },
   {
     kind: "image",
-    src: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1600&q=85",
-    alt: "SUV on scenic route",
+    src: "/images/vehicles/fortuner.jpeg",
+    alt: "Toyota Fortuner on a snowy Himalayan mountain road",
+  },
+  {
+    kind: "image",
+    src: "/images/vehicles/thar.jpeg",
+    alt: "Mahindra Thar and Fortuner fleet in the mountains",
   },
 ];
 
