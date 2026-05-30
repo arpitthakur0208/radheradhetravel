@@ -43,7 +43,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="Discover"
             title="Destinations"
-            subtitle="From Himachal’s green valleys to Ladakh’s stark beauty."
+            subtitle="From Himachal’s green valleys to Ladakh’s high passes, lakes, and remote frontiers."
           />
           <div className="mt-14 space-y-16">
             {destinations.map((region) => (

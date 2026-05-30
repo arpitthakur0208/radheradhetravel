@@ -23,6 +23,29 @@
         "description": "McLeod Ganj, Tibetan culture, and forested Dhauladhar views.",
         "image": "/images/destinations/dharamshala.jpeg",
         "imagePosition": "right center"
+      },
+      {
+        "name": "Kasol & Manikaran",
+        "description": "Parvati Valley trails, riverside cafés, and hot springs in the hills.",
+        "image": "/images/destinations/kasol.jpeg",
+        "imagePosition": "left center"
+      },
+      {
+        "name": "Kullu Valley",
+        "description": "Lush Beas valley, apple orchards, and the classic route to Manali.",
+        "image": "/images/destinations/kullu.jpeg",
+        "imagePosition": "center 30%"
+      },
+      {
+        "name": "Solang Valley",
+        "description": "Snow adventures, ropeways, and wide-open views above Manali.",
+        "image": "/images/destinations/solang.jpeg",
+        "imagePosition": "center 40%"
+      },
+      {
+        "name": "Kinnaur Valley",
+        "description": "Sangla, Chitkul, and apple-country roads along the Sutlej.",
+        "image": "/images/destinations/kinnaur.jpeg"
       }
     ]
   },
@@ -50,6 +73,40 @@
         "name": "Tso Moriri",
         "description": "High-altitude blue lake surrounded by wild Changthang landscapes.",
         "image": "/images/destinations/tso-moriri.jpeg"
+      },
+      {
+        "name": "Kargil",
+        "description": "Dramatic Suru valley scenery and the gateway between Kashmir and Ladakh.",
+        "image": "/images/destinations/kargil.jpeg",
+        "imagePosition": "center 45%"
+      },
+      {
+        "name": "Zanskar Valley",
+        "description": "Remote passes, ancient gompas, and the wild Rangdum landscape.",
+        "image": "/images/destinations/zanskar.jpeg"
+      },
+      {
+        "name": "Khardung La Pass",
+        "description": "One of the world’s highest motorable passes—pure high-altitude thrill.",
+        "image": "/images/destinations/khardung-la.jpeg"
+      },
+      {
+        "name": "Shyok War Memorial",
+        "description": "A moving stop on the Nubra route honoring Siachen warriors.",
+        "image": "/images/destinations/shyok-war-memorial.jpeg",
+        "imagePosition": "center 35%"
+      },
+      {
+        "name": "Magnetic Hill",
+        "description": "The famous gravity-defying stretch on the Leh–Kargil highway.",
+        "image": "/images/destinations/magnetic-hill.jpeg",
+        "imagePosition": "left center"
+      },
+      {
+        "name": "Hanle & Changthang",
+        "description": "Dark-sky country, high plateaus, and the remote eastern frontier.",
+        "image": "/images/destinations/hanle.jpeg",
+        "imagePosition": "center 40%"
       }
     ]
   }
