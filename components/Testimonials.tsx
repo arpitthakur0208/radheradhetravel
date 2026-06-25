@@ -13,13 +13,6 @@ import "swiper/css/pagination";
 
 const reviews = reviewsData as Review[];
 
-/** Portrait fallbacks when local `/images/reviews/*.jpg` are not yet added. */
-const AVATAR_FALLBACKS = [
-  "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face",
-  "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop&crop=face",
-  "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop&crop=face",
-] as const;
-
 const stats = [
   { icon: Users, label: "Happy Travelers", value: 500, suffix: "+" },
   { icon: Star, label: "Average Rating", value: 4.9, suffix: "★", decimals: 1 },
@@ -104,24 +97,16 @@ function StarRating({ rating }: { rating: number }) {
   );
 }
 
-function ProfileAvatar({ review, index }: { review: Review; index: number }) {
-  const [src, setSrc] = useState(review.image);
-  const fallback = AVATAR_FALLBACKS[index % AVATAR_FALLBACKS.length];
-  const isRemote = src.startsWith("http");
-
+function ProfileAvatar({ review }: { review: Review }) {
   return (
     <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-full border-2 border-cyan-400/40 shadow-lg shadow-cyan-500/20 ring-2 ring-white/20 dark:ring-white/10">
       <Image
-        src={src}
+        src={review.image}
         alt={review.name}
         fill
         className="object-cover"
         sizes="56px"
         loading="lazy"
-        unoptimized={isRemote}
-        onError={() => {
-          if (src !== fallback) setSrc(fallback);
-        }}
       />
     </div>
   );
@@ -144,7 +129,7 @@ function ReviewCard({ review, index }: { review: Review; index: number }) {
       />
 
       <div className="relative flex items-start gap-4">
-        <ProfileAvatar review={review} index={index} />
+        <ProfileAvatar review={review} />
         <div className="min-w-0 flex-1 pt-0.5">
           <h3 className="font-display text-lg font-semibold text-foreground">{review.name}</h3>
           <p className="mt-0.5 flex items-center gap-1 text-sm text-cyan-700 dark:text-cyan-400">

@@ -5,7 +5,7 @@
     "vehicle": "Mahindra Thar",
     "rating": 5,
     "review": "Amazing experience with Radhe Radhe Travels. The Thar was perfect for Leh roads and the trip was unforgettable.",
-    "image": "/images/reviews/review1.jpg"
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face"
   },
   {
     "name": "Priya Verma",
@@ -13,7 +13,7 @@
     "vehicle": "Toyota Innova",
     "rating": 5,
     "review": "Very professional service and comfortable journey. Highly recommended for family trips in Himachal.",
-    "image": "/images/reviews/review2.jpg"
+    "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop&crop=face"
   },
   {
     "name": "Aman Thakur",
@@ -21,6 +21,6 @@
     "vehicle": "Mahindra Scorpio",
     "rating": 5,
     "review": "The driver was experienced and the SUV was well maintained. One of the best mountain travel experiences.",
-    "image": "/images/reviews/review3.jpg"
+    "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop&crop=face"
   }
 ]
